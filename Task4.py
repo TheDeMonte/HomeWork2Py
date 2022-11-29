@@ -6,7 +6,6 @@ def random_number(min, max):
     rnd = float(now[::-1][:3:])/1000
     return int(min + rnd*(max-min))
 
-
 n = random_number(1, 1000)
 k = random_number(1, 500)
 b = []
